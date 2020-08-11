@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+#sub_det{padding: 20px 0;}
+#sub_det .frame{width: 1000px;margin: 0 auto;font-size: 0;}
+#sub_det .frame > div{display: inline-block;vertical-align: top;width: 50%;height: 500px;padding: 10px;}
+
+#sub_det .frame .det_coffee{background: #99aaff;}
+#sub_det .frame .det_coffee .det_img{position: relative;height: 100%;overflow: hidden;}
+#sub_det .frame .det_coffee .det_img img{position: absolute;top: 50%;left: 50%;width: 100%;transform: translate(-50%, -50%);}
+
+#sub_det .frame #det_box{min-height: 500px;background: #dddddd;}
+#sub_det .frame #det_box .det_info{}
+#sub_det .frame #det_box .det_info .det_title{padding: 10px 0;}
+#sub_det .frame #det_box .det_info .det_title h2{font-size: 24px;color: #333333;}
+#sub_det .frame #det_box .det_info .det_title p{padding: 10px 0;font-size: 20px;color: #555555;}
+
+#sub_det .frame #det_box .det_info .det_price{padding: 10px 0;border-bottom: 1px solid #777777;}
+#sub_det .frame #det_box .det_info .det_price h4{font-size: 18px;color: #555555;}
+#sub_det .frame #det_box .det_info .det_price h4 span{color: #333333;font-size: 22px;}
+
+#sub_det .frame #det_box .det_info .form_crush{padding: 20px 0;font-size: 0;}
+#sub_det .frame #det_box .det_info .form_crush label{display: inline-block;vertical-align: middle;font-size: 18px;color: #555555;width: 120px;}
+#sub_det .frame #det_box .det_info .form_crush select{display: inline-block;vertical-align: middle;width: calc(100% - 120px);height: 40px;padding: 10px;font-size: 14px;}
+#sub_det .frame #det_box .det_info .form_crush select option{}
+#sub_det .frame #det_box .det_info .result_opt_01{}
+
+#sub_det .frame #det_box .det_info .form_gram{padding: 0 0 20px;font-size: 0;}
+#sub_det .frame #det_box .det_info .form_gram label{display: inline-block;vertical-align: middle;font-size: 18px;color: #555555;width: 120px;}
+#sub_det .frame #det_box .det_info .form_gram select{display: inline-block;vertical-align: middle;width: calc(100% - 120px);height: 40px;padding: 10px;font-size: 14px;}
+#sub_det .frame #det_box .det_info .form_gram select option{}
+#sub_det .frame #det_box .det_info .result_opt_02{}
+
+#sub_det .frame #det_box .det_info ul{padding: 10px 0;}
+#sub_det .frame #det_box .det_info ul .my_item{background: #bbbbbb;padding: 0 5px;border-bottom: 1px solid #777777;}
+#sub_det .frame #det_box .det_info ul .my_item .det_count{padding: 20px 0;font-size: 0;}
+#sub_det .frame #det_box .det_info ul .my_item .det_count > div{display: inline-block;vertical-align: middle;font-size: 13px;}
+
+#sub_det .frame #det_box .det_info ul .my_item .det_count .det_count_opt{width: 45%;font-weight: bold;}
+#sub_det .frame #det_box .det_info ul .my_item .det_count .det_count_opt p{}
+
+#sub_det .frame #det_box .det_info ul .my_item .det_count .det_count_box{margin: 0 5px;border: 1px solid #777777;border-radius: 4px;background: #ffffff;text-align: center;font-size: 16px;}
+#sub_det .frame #det_box .det_info ul .my_item .det_count .det_count_box a{display: inline-block;width: 30px;height: 25px;color: #333333;}
+#sub_det .frame #det_box .det_info ul .my_item .det_count .det_count_box a:hover{background: #eeeeee;}
+#sub_det .frame #det_box .det_info ul .my_item .det_count .det_count_box input{width: 40px;height: 25px;line-height: 25px;text-align: center;border: none;outline: none;} /* outline: none; */
+
+#sub_det .frame #det_box .det_info ul .my_item .det_count .det_count_price{width: calc(100% - 355px);text-align: right;font-weight: bold;}
+#sub_det .frame #det_box .det_info ul .my_item .det_count .det_count_price .each_price{}
+#sub_det .frame #det_box .det_info ul .my_item .det_count .item_del{width: 5%;text-align: right;}
+#sub_det .frame #det_box .det_info ul .my_item .det_count .item_del span{display: block;width: 16px;height: 16px;margin-left: 5px;background: #ffffff;border-radius: 50%;line-height: 1;text-align: center;cursor: pointer;}
+
+#sub_det .frame #det_box .det_info .det_total_price{padding: 20px 0;}
+#sub_det .frame #det_box .det_info .det_total_price:after{content: "";display: block;clear: both;}
+#sub_det .frame #det_box .det_info .det_total_price .total_price_txt{float: left;font-size: 20px;font-weight: bold;}
+#sub_det .frame #det_box .det_info .det_total_price .total_price_num{float: right;font-size: 26px;font-weight: bold;color: #ee3535;}
+#sub_det .frame #det_box .det_info .det_total_price .total_price_num span{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
